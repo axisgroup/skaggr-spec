@@ -1,0 +1,36 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "aggr",
+            "optional": false,
+            "description": "The type"
+        },
+        "value": {
+            "type": "string",
+            "optional": false,
+            "description": "Name of the aggr function"
+        },
+        "qualifiers": {
+            "type": "Array",
+            "arrayType": "qualifier",
+            "optional": false,
+            "defaultValue": [],
+            "description": "An array of qualifiers to include in the aggregation function"
+        },
+        "set": {
+            "type": "Array",
+            "arrayType": "set-component",
+            "optional": false,
+            "defaultValue": [],
+            "description": "An array of set-components that can be combined to form a set expression"
+        },
+        "parameters": {
+            "type": "Array",
+            "arrayType": "any",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Parameters for the aggregation function"
+        }
+    }
+}

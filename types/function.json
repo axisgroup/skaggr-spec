@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "function",
+            "optional": false,
+            "description": "The type"
+        },
+        "value": {
+            "type": "string",
+            "optional": false,
+            "defaultValue": "",
+            "description": "The name of the function"
+        },
+        "parameters": {
+            "type": "array",
+            "arrayType": "any",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Array of parameters"
+        }
+    }
+}

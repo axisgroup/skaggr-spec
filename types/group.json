@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "group",
+            "optional": false,
+            "description": "The type"
+        },
+        "bracket": {
+            "type": "boolean",
+            "defaultValue": false,
+            "optional": true,
+            "description": "If true, wraps group in '()'"
+        },
+        "value": {
+            "type": "Array",
+            "arrayType": "any",
+            "defaultValue": [],
+            "optional": false,
+            "descriptoin": "Array of values to group"
+        }
+    }
+}

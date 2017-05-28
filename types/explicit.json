@@ -1,0 +1,16 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "explicit",
+            "optional": false,
+            "description": "The type"
+        },
+        "value": {
+            "type": "string",
+            "optional": false,
+            "defaultValue": "",
+            "description": "The string value to pass through"
+        }
+    }
+}

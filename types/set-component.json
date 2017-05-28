@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "set-component",
+            "optional": false,
+            "description": "The type"
+        },
+        "identifier": {
+            "type": "string",
+            "optional": false,
+            "defaultValue": "$",
+            "description": "Name of the identifier"
+        },
+        "operator": {
+            "type": "string",
+            "optional": false,
+            "defaultValue": "+",
+            "description": "Operator when using multiple set-components"
+        },
+        "modifiers": {
+            "type": "Array",
+            "arrayType": "set-modifier",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Set modifiers"
+        }
+    }
+}

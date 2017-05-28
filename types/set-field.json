@@ -1,0 +1,22 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "set-field",
+            "optional": false,
+            "description": "The type"
+        },
+        "operator": {
+            "type": "string",
+            "optional": true,
+            "defaultValue": "+",
+            "description": "Operator when using multiple selections"
+        },
+        "value": {
+            "type": "string",
+            "optional": true,
+            "defaultValue": "",
+            "description": "Name of the field"
+        }
+    }
+}

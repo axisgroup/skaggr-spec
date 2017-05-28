@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "qualifier",
+            "optional": false,
+            "description": "The type"
+        },
+        "value": {
+            "type": "string",
+            "optional": false,
+            "defaultValue": "",
+            "description": "Name of the qualifier"
+        },
+        "included": {
+            "type": "Boolean",
+            "optional": false,
+            "defaultValue": true,
+            "description": "If true, qualifier will be included"
+        },
+        "modifiers": {
+            "type": "Array",
+            "arrayType": "string",
+            "optional": true,
+            "defaultValue": [],
+            "description": "Field names to modify the qualifier with"
+        }
+    }
+}

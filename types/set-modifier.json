@@ -1,0 +1,35 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "set-modifier",
+            "optional": false,
+            "description": "The type"
+        },
+        "field": {
+            "type": "string",
+            "optional": false,
+            "defaultValue": "",
+            "description": "Name of the field"
+        },
+        "operator": {
+            "type": "string",
+            "optional": true,
+            "defaultValue": "=",
+            "description": "Operator for field modification"
+        },
+        "forcedExclusion": {
+            "type": "boolean",
+            "optional": true,
+            "defaultValue": false,
+            "description": "If true, uses forced exclusion on field"
+        },
+        "selections": {
+            "type": "Array",
+            "arrayType": "any",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Array of selections"
+        }
+    }
+}
