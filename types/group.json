@@ -6,7 +6,7 @@
             "optional": false,
             "description": "The type"
         },
-        "bracket": {
+        "brackets": {
             "type": "boolean",
             "defaultValue": false,
             "optional": true,

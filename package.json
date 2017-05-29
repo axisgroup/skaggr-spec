@@ -1,0 +1,24 @@
+{
+  "name": "skaggr-spec",
+  "version": "0.0.3",
+  "description": "A JSON spec template for Qlik expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axisgroup/skaggr-spec.git"
+  },
+  "keywords": [
+    "qlik",
+    "qix",
+    "skaggr"
+  ],
+  "author": "Speros Kokenes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axisgroup/skaggr-spec/issues"
+  },
+  "homepage": "https://github.com/axisgroup/skaggr-spec#readme"
+}
