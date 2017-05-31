@@ -1,0 +1,24 @@
+{
+    "properties": {
+        "type": {
+            "type": "string",
+            "defaultValue": "set-expression",
+            "optional": false,
+            "description": "The type"
+        },
+        "components": {
+            "type": "Array",
+            "arrayType": "set-component",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Array of set components"
+        },
+        "operators": {
+            "type": "Array",
+            "arrayType": "string",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Operators for combining components"
+        }
+    }
+}

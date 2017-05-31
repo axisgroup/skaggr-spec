@@ -30,6 +30,13 @@
             "optional": false,
             "defaultValue": [],
             "description": "Array of selections"
+        },
+        "selectionOperators": {
+            "type": "Array",
+            "arrayType": "string",
+            "optional": false,
+            "defaultValue": [],
+            "description": "Array of operators"
         }
     }
 }

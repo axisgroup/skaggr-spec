@@ -6,12 +6,6 @@
             "optional": false,
             "description": "The type"
         },
-        "operator": {
-            "type": "string",
-            "optional": true,
-            "defaultValue": "+",
-            "description": "Operator when using multiple selections"
-        },
         "value": {
             "type": "array",
             "arrayType": "string",

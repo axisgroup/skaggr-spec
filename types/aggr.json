@@ -18,12 +18,15 @@
             "defaultValue": [],
             "description": "An array of qualifiers to include in the aggregation function"
         },
-        "set": {
-            "type": "Array",
-            "arrayType": "set-component",
+        "set-expression": {
+            "type": "set-expression",
             "optional": false,
-            "defaultValue": [],
-            "description": "An array of set-components that can be combined to form a set expression"
+            "defaultValue": {
+                "type": "set-expression",
+                "components": [],
+                "operators": []
+            },
+            "description": "A set expression"
         },
         "parameters": {
             "type": "Array",

@@ -17,7 +17,14 @@
             "arrayType": "any",
             "defaultValue": [],
             "optional": false,
-            "descriptoin": "Array of values to group"
+            "description": "Array of values to group"
+        },
+        "operators": {
+            "type": "Array",
+            "arrayType": "string",
+            "defaultValue": [],
+            "optional": false,
+            "description": "Array of operators"
         }
     }
 }

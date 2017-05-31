@@ -1,6 +1,6 @@
 {
   "name": "skaggr-spec",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A JSON spec template for Qlik expressions",
   "main": "index.js",
   "scripts": {

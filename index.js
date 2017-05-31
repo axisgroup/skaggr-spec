@@ -4,6 +4,7 @@ module.exports = {
     function: require("./types/function.json"),
     group: require("./types/group.json"),
     qualifier: require("./types/qualifier.json"),
+    "set-expression": require("./types/set-expression.json"),
     "set-component": require("./types/set-component.json"),
     "set-field": require("./types/set-field.json"),
     "set-list": require("./types/set-list.json"),
