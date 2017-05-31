@@ -20,6 +20,7 @@ This syntax continues to scale up into more nested structures, faciliting precis
 
 However, the creation and management of this syntax is not easily automated. *Enter the **skaggr-spec**.
 
+<br><br>
 ## The JSON Spec Template
 **skaggr-spec** is a specification for defining the components of any Qlik expression via JSOn. With this template in place, we can start to build more tools for working with Qlik expressions, beyond the handcoding method we use today.
 
@@ -117,3 +118,8 @@ becomes
     ]
 }
 ```
+
+<br><br>
+## Implementations
+* [skaggr-parse](https://github.com/axisgroup/skaggr-parse) – a JS parser that takes in a skaggr-spec and outputs a Qlik expression string
+* [skaggr.js](https://github.com/axisgroup/skaggr.js) - a JS interface for building and managing Qlik expressions; like jQuery for Qlik syntax 
